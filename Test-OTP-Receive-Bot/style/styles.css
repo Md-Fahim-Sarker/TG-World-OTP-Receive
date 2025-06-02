@@ -1,0 +1,26 @@
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #58a6ff;
+}
+
+#output {
+  padding: 20px;
+  white-space: pre-wrap;
+  background: #161b22;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  max-height: 80vh;
+}
