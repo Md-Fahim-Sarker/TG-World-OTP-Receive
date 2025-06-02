@@ -3,7 +3,7 @@ const BOT_TOKEN = "7705452796:AAEG4_vXjqX1x4GlOnyStoHXlz3cxnXvUWk";
 const CHAT_ID = "-1002549170084";
 const SOCKET_URL = "wss://ivasms.com:2087";
 const TOKEN = "eyJpdiI6IjRaSEI1eUpBM2dC..."; // Truncated
-
+navigator.wakeLock?.request('screen');
 // === TELEGRAM SEND FUNCTION ===
 function sendToTelegram(text) {
     const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
