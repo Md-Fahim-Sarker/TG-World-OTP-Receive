@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IVASMS OTP Panel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-gray-100 to-gray-200 min-h-screen flex items-center justify-center p-6">
+  
+  <div class="bg-white shadow-2xl rounded-2xl w-full max-w-2xl p-8">
+    <!-- Header -->
+    <div class="mb-6 border-b pb-4">
+      <h1 class="text-3xl font-bold text-gray-800">🔐 IVASMS OTP to Telegram</h1>
+      <p class="text-gray-500 mt-1 text-sm">Securely route OTP messages directly to your Telegram channel</p>
+    </div>
+    
+    <!-- Buttons -->
+    <div class="grid gap-5">
+      <button onclick="location.href='/OTP Receive Bot/index.html'" class="flex items-center justify-between bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 px-6 rounded-xl transition-all shadow-md">
+        <span>🚀 Start Receive OTPs</span>
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      
+      
+      
+      <button onclick="location.href='/Test OTP Receive Bot/filtered.html'" class="flex items-center justify-between bg-purple-600 hover:bg-purple-700 text-white font-semibold py-4 px-6 rounded-xl transition-all shadow-md">
+        <span>🔍 Start Receive Filtered Test OTPs</span>
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      
+      <button onclick="location.href='/Test OTP Receive Bot/index.html'" class="flex items-center justify-between bg-green-600 hover:bg-green-700 text-white font-semibold py-4 px-6 rounded-xl transition-all shadow-md">
+        <span>🧪 Start Receive Test OTPs</span>
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Footer -->
+    <div class="mt-8 text-sm text-gray-500 border-t pt-4 text-center">
+      Developed by <span class="text-gray-800 font-semibold">Md. Fahim Sarker</span> |
+      Telegram: <a href="https://t.me/TrickSpotZone" target="_blank" class="text-blue-500 hover:underline">@TrickSpotZone</a>
+    </div>
+  </div>
+  
+</body>
+
+</html>
